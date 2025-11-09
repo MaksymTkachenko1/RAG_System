@@ -1,0 +1,26 @@
+# Virtual envs
+.venv/
+venv/
+
+# Python cache & artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Data outputs
+data/raw/
+data/processed/
+data/media/
+
+# Model caches
+.cache/
+.huggingface/
+
+# Streamlit
+.streamlit/
+
+# OS cruft
+Thumbs.db
+.DS_Store
